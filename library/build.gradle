@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.pnikosis.materialishprogress'
     compileSdk 34
 
     defaultConfig {
@@ -22,6 +23,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
 
-apply from: '../maven_push.gradle'
 
 
